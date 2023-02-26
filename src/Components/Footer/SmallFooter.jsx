@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Footer() {
+function SmallFooter() {
   return (
     <div>
         <footer className="footer items-center p-5 bg-neutral text-neutral-content">
@@ -19,4 +19,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default SmallFooter
