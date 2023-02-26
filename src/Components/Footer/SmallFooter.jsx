@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function SmallFooter() {
   return (
-    <div>
+    <div className='pt-[5rem]'>
         <footer className="footer items-center p-5 bg-neutral text-neutral-content">
             <div className="items-center grid-flow-col">
                 <h1 className='text-[3rem] font-[700] font-[serif]'>NM</h1>

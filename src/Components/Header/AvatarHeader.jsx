@@ -29,16 +29,16 @@ function Header() {
             </ul>
           </div>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-middle">
           <Link to="/" className="btn btn-ghost normal-case text-xl">Neelanjan Mukherji</Link>
         </div>
-        {/* <div className="navbar-end">
+        <div className="navbar-end">
             <div className="avatar">
               <div className="w-8 rounded">
                 <img src={HeroImage} alt="Tailwind-CSS-Avatar-component" />
               </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   )
