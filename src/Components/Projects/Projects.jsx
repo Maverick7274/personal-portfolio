@@ -1,10 +1,9 @@
-import React from 'react'
-import SmallFooter from "../Footer/SmallFooter";
+import React from 'react';
 import AvatarHeader from "../Header/AvatarHeader";
 
 function Projects() {
   return (
-    <div>
+    <div className='py-[15rem]'>
         <AvatarHeader />
         <div className='h-screen flex justify-center items-center'>
             <ul className="p-4 lg:p-[7rem]">
@@ -94,8 +93,6 @@ function Projects() {
             </div>
         </div>
 
-
-        <SmallFooter />
     </div>
   )
 }
