@@ -5,6 +5,7 @@ import Projects from "./Components/Projects/Projects";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import PageNotFound from "./Components/Errors/PageNotFound";
+import Resume from "./Components/Resume/Resume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

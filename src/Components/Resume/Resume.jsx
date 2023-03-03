@@ -1,8 +1,11 @@
 import React from 'react'
+import Viewer from '../PDFViewer/Viewer'
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <div>
+      <Viewer document={'resume.pdf'} ></Viewer>
+    </div>
   )
 }
 

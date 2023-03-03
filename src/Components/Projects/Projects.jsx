@@ -3,7 +3,7 @@ import AvatarHeader from "../Header/AvatarHeader";
 
 function Projects() {
   return (
-    <div className='py-[15rem]'>
+    <div className='pb-[5rem]'>
         <AvatarHeader />
         <div className='h-screen flex justify-center items-center'>
             <ul className="p-4 lg:p-[7rem]">
@@ -56,7 +56,7 @@ function Projects() {
                 <label htmlFor="aegis" className="btn btn-sm btn-circle absolute right-2 top-2 font-[900]">✕</label>
                 <h3 className="text-lg font-bold">Aegis Nexus</h3>
                 <p>Aegis Nexus is a cutting-edge blockchain-based platform that provides a secure and decentralized storage solution for people's medical certificates. With Aegis Nexus, individuals can store their medical records and important health information in a tamper-proof and easily accessible manner.</p>
-                <p className="py-6">Project Link : <a className='link link-primary' href='https://github.com/VaneWeave/TRINIT_VANEWEAVE_WEB_02-Aegis-Nexus.git'>https://github.com/VaneWeave/TRINIT_VANEWEAVE_WEB_02-Aegis-Nexus.git</a> </p>
+                <p className="py-6">Project Link : <a className='link link-primary' target='_blank' href='https://github.com/VaneWeave/TRINIT_VANEWEAVE_WEB_02-Aegis-Nexus.git'>https://github.com/VaneWeave/TRINIT_VANEWEAVE_WEB_02-Aegis-Nexus.git</a> </p>
             </div>
         </div>
         
@@ -67,7 +67,7 @@ function Projects() {
                 <label htmlFor="blockproffer" className="btn btn-sm btn-circle absolute right-2 top-2 font-[900]">✕</label>
                 <h3 className="text-lg font-bold">BlockProffer</h3>
                 <p>BlockProffer is a responsive, decentralised web application working on the MERN Stack and Ethereum blockchain.</p>
-                <p className="py-6">Project Link : <a className='link link-primary' href='https://github.com/Semicolon-Stardust/blockproffer-api.git'>https://github.com/Semicolon-Stardust/blockproffer-api.git</a> </p>
+                <p className="py-6">Project Link : <a className='link link-primary' target='_blank' href='https://github.com/Semicolon-Stardust/blockproffer-api.git'>https://github.com/Semicolon-Stardust/blockproffer-api.git</a> </p>
             </div>
         </div>
 
@@ -78,7 +78,7 @@ function Projects() {
                 <label htmlFor="flocc" className="btn btn-sm btn-circle absolute right-2 top-2 font-[900]">✕</label>
                 <h3 className="text-lg font-bold">BlockProffer</h3>
                 <p>An Online Compiler with Multiple Language Support.</p>
-                <p className="py-6">Project Link : <a className='link link-primary' href='https://github.com/Semicolon-Stardust/Online-Compiler.git'>https://github.com/Semicolon-Stardust/Online-Compiler.git</a> </p>
+                <p className="py-6">Project Link : <a className='link link-primary' target='_blank' href='https://github.com/Semicolon-Stardust/Online-Compiler.git'>https://github.com/Semicolon-Stardust/Online-Compiler.git</a> </p>
             </div>
         </div>
 
@@ -89,7 +89,7 @@ function Projects() {
                 <label htmlFor="career" className="btn btn-sm btn-circle absolute right-2 top-2 font-[900]">✕</label>
                 <h3 className="text-lg font-bold">Career Compass</h3>
                 <p>Career Compass is a Career Guidance System which generates an overall report of Strengths and Weaknesses of User in Different aspects like Response Time, Mental Abilities, Memory etc by asking user to answer few questions and play some brain games. Based on the Generated Data of Strengths and Weaknesses, Career Compass Recommends a Good Career Option to the User that would suit them.</p>
-                <p className="py-6">Project Link : <a className='link link-primary' href='https://github.com/Semicolon-Stardust/Career-Compass.git'>https://github.com/Semicolon-Stardust/Career-Compass.git</a> </p>
+                <p className="py-6">Project Link : <a className='link link-primary' target='_blank' href='https://github.com/Semicolon-Stardust/Career-Compass.git'>https://github.com/Semicolon-Stardust/Career-Compass.git</a> </p>
             </div>
         </div>
 

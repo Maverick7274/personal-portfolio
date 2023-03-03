@@ -19,7 +19,7 @@ function Header() {
               <li><Link>Blog</Link></li>
               <li><Link to="/" target="_blank">Contact</Link></li>
               <li>
-                <Link>
+                <Link target='_blank' to="/resume">
                   Resume/CV
                   <div className='new-tab-icon'>
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
