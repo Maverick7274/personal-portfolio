@@ -25,7 +25,7 @@ function Viewer(props) {
 
 
   return (
-    <div ref={containerRef} className="w-full h-screen">
+    <div ref={containerRef} className="w-full h-screen pt-[4rem]">
         
     </div>
   )

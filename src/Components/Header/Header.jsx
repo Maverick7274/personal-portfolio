@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HeroImage from '../../Assets/HeroImage.jpg'
+import resume from '../../Assets/resume.pdf'
 
 function Header() {
   return (
@@ -18,13 +19,21 @@ function Header() {
               <li><Link to='/projects'>Projects</Link></li>
               <li><Link>Blog</Link></li>
               <li><Link to="/" target="_blank">Contact</Link></li>
-              <li>
+              {/* <li>
                 <Link target='_blank' to="/resume">
                   Resume/CV
                   <div className='new-tab-icon'>
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </div>
                 </Link>
+              </li> */}
+              <li>
+                <a target='_blank' href={ resume }>
+                  Resume/CV
+                  <div className='new-tab-icon'>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
               </li>
             </ul>
           </div>
